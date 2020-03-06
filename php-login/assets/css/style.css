@@ -1,0 +1,46 @@
+
+
+
+body{
+
+  background-repeat: no-repeat;
+
+
+}
+
+
+
+
+
+
+  header{
+  background-color: rgba(52,58,64,1);
+
+}
+
+div.boton{
+  background-color: rgba(42,232,75,.5);
+   -webkit-transition:height:.6s ease;
+  -o-transition: .6s ease;
+  transition: .6s ease;
+  background-image:url("img/descargue.jpg");
+}
+
+div.boton:hover{
+  height: 500px;
+  background-image:url("img/descargue.jpg");
+  
+}
+
+
+
+@media (max-width: 768px){
+  button{
+   margin-left:0.11%; 
+   width: 50%; 
+   height: 521px; 
+   border: none;
+}
+}
+
+
